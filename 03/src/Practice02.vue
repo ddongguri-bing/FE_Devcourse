@@ -37,6 +37,7 @@ export default {
           class="text-xl font-bold leading-none text-gray-900 dark:text-white">
           Latest Customers
         </h5>
+        <!-- 디렉티브는 제일 상단, 이벤트는 제일 하단에 위치하도록 코드를 작성 -->
         <button
           v-if="visibleCount < customers.length"
           @click="showAll"
